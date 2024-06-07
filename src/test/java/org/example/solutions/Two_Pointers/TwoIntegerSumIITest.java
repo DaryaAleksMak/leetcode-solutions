@@ -25,5 +25,4 @@ class TwoIntegerSumIITest {
                 Arguments.of(new int[]{-1,0}, -1, new int[]{1,2})
         );
     }
-
 }
