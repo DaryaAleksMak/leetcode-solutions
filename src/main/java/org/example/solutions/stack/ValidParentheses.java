@@ -1,6 +1,5 @@
-package org.example.solutions.validParentheses;
+package org.example.solutions.stack;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedList;
 

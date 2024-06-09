@@ -1,6 +1,6 @@
 package org.example.solutions;
 
-import org.example.solutions.validParentheses.ValidParentheses;
+import org.example.solutions.stack.ValidParentheses;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
