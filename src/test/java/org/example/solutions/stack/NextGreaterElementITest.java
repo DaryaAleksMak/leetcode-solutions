@@ -8,7 +8,6 @@ import org.junit.jupiter.params.provider.MethodSource;
 
 class NextGreaterElementITest {
 
-
     @ParameterizedTest
     @MethodSource("twoSumTestCases")
     void testSolution(int[] nums1, int[] nums2, int[] expectedResult) {
