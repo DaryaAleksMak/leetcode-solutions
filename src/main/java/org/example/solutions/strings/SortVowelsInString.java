@@ -1,4 +1,4 @@
-package org.example.solutions;
+package org.example.solutions.strings;
 
 import java.util.ArrayList;
 import java.util.Collections;
