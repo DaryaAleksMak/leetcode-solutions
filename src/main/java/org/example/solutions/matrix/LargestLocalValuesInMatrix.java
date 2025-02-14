@@ -1,8 +1,5 @@
 package org.example.solutions.matrix;
 
-import java.util.SortedSet;
-import java.util.TreeSet;
-
 /**
  * Example 1:
  */
@@ -27,7 +24,6 @@ public class LargestLocalValuesInMatrix {
         max = Math.max(max, grid[i + 2][j]);
         max = Math.max(max, grid[i + 2][j + 1]);
         max = Math.max(max, grid[i + 2][j + 2]);
-
 
         result[rowResult][columnResult] = max;
         if (columnResult == (grid.length - 3)) {
