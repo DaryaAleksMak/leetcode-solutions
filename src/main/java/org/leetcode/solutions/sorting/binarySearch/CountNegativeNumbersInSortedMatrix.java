@@ -1,4 +1,4 @@
-package org.leetcode.solutions.binarySearch;
+package org.leetcode.solutions.sorting.binarySearch;
 
 //@formatter:off
 
