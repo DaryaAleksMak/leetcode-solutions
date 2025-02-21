@@ -5,23 +5,22 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.leetcode.solutions.sorting.countingSort.MinimumAverageOfSmallestAndLargestElements;
 
-class MinimumAverageOfSmallestAndLargestElementsTest {
+class MaximumProductOfTwoElementsInArrayTest {
 
   @ParameterizedTest
   @MethodSource("testCases")
   void testSolution(int[] nums, double expectedResult) {
-    var solution = new MinimumAverageOfSmallestAndLargestElements();
-    var result = solution.minimumAverage(nums);
+    var solution = new MaximumProductOfTwoElementsInArray_1464();
+    var result = solution.maxProduct(nums);
     Assertions.assertEquals(expectedResult, result);
   }
 
   public static Stream<Arguments> testCases() {
 
     return Stream.of(
-        Arguments.of(new int[]{7, 8, 3, 4, 15, 13, 4, 1}, 5.5),
-        Arguments.of(new int[]{1, 9, 8, 3, 10, 5}, 5.5)
+        Arguments.of(new int[]{3,4,5,2}, 12),
+        Arguments.of(new int[]{1,5,4,5}, 16)
     );
   }
 }

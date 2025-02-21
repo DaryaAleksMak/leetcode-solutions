@@ -1,4 +1,4 @@
-package org.leetcode.solutions.sorting.countingSearch;
+package org.leetcode.solutions.sorting.countingSort;
 
 import java.util.PriorityQueue;
 

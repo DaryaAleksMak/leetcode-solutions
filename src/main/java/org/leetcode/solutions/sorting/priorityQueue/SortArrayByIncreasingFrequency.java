@@ -1,4 +1,4 @@
-package org.leetcode.solutions.sorting;
+package org.leetcode.solutions.sorting.priorityQueue;
 
 //@formatter:off
 import java.util.HashMap;
