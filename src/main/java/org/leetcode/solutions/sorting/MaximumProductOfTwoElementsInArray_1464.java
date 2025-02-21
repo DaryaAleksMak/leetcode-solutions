@@ -26,6 +26,5 @@ public class MaximumProductOfTwoElementsInArray_1464 {
     }
 
     return (firstMax - 1) * (secondMax - 1);
-
   }
 }
