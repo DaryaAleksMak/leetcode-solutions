@@ -1,4 +1,4 @@
-package org.leetcode.solutions.Two_Pointers;
+package org.leetcode.solutions.Arrays_Hashing;
 
 //@formatter:off
 import java.util.HashMap; /**
