@@ -4,6 +4,7 @@ import java.util.Stack;
 
 public class CrawlerLogFolder {
 
+  //@formatter:off
   /**
    * "d1/","d2/","../","d21/","./"
    *
@@ -22,9 +23,9 @@ public class CrawlerLogFolder {
    * "../" -> stack ["d1/"]
    * "d21/" -> stack ["d1/", "d21/"]
    * "./" -> stack ["d1/", "d21/"]
-   * 
+   *
    * return stack.size
-   * 
+   *
    * "d1/", "d2/", "./", "d3/", "../", "d31/"
    * "d1/" -> stack["d1/"]
    * "d2/" -> stack["d1/", "d2/"]
@@ -34,16 +35,18 @@ public class CrawlerLogFolder {
    * "d31/" -> stack["d1/", "d2/", "d31/"]
    *
    */
+  //@formatter:on
+
   public int minOperations(String[] logs) {
 
     Stack<String> stack = new Stack<>();
 
     for(String log : logs) {
-      if (log == "../"){
+      if (log.equals("../")){
         if (!stack.isEmpty()) {
           stack.pop();
         }
-      }else if (log == "./"){
+      }else if (log.equals("./") ){
         continue;
       }else {
         stack.push(log);
