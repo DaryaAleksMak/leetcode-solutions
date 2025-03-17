@@ -13,7 +13,7 @@ class ValidAnagramTest {
     @MethodSource("testCases")
     void testSolution(int[] nums,int k, int[] expectedResult) {
         var solution = new TopFrequentElements();
-        var result = solution.topKFrequent(nums, k);
+        var result = solution.topKFrequentBrute(nums, k);
         Assertions.assertEquals(expectedResult, result);
     }
 
