@@ -19,6 +19,7 @@ class LongestSubstringWithoutRepeatingCharactersTest {
   public static Stream<Arguments> testCases() {
 
     return Stream.of(
+        Arguments.of("qrsvbspk", 5),
         Arguments.of("dvdf", 3),
         Arguments.of(" ", 1),
         Arguments.of("abcabcbb", 3),
